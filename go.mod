@@ -1,4 +1,4 @@
-module golang.design/x/clipboard
+module github.com/hgojf/clipboard
 
 go 1.24
 
