@@ -4,11 +4,12 @@
 //
 // Written by Changkun Ou <changkun.de>
 
-//go:build linux && !android
+//go:build (linux && !android) || openbsd
 
 package clipboard
 
 /*
+#cgo CFLAGS: -I/usr/X11R6/include
 #cgo LDFLAGS: -ldl
 #include <stdlib.h>
 #include <stdio.h>
