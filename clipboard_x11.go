@@ -10,7 +10,6 @@ package clipboard
 
 /*
 #cgo CFLAGS: -I/usr/X11R6/include
-#cgo LDFLAGS: -ldl
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdint.h>
